@@ -1,0 +1,209 @@
+@import "../../Components/typography.css";
+
+.containerLogin{
+    height: 944px;
+    padding-top: 64px;
+    padding-right: 120px;
+    padding-bottom: 64px;
+    padding-left: 120px;
+    gap: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginForm {
+    width: 590px;
+    height: 617px;
+    padding: 40px;
+    border-radius: 4px;
+    border: 1px;
+    border-color: rgba(241, 241, 241, 1);
+    gap: 36px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 525px;
+    height: 67px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subtitle {
+    color: rgba(51, 51, 51, 0.68);
+}
+
+fieldset {
+    width: 518px;
+    height: 442px;
+    gap: 24px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+input {
+    width: 518px;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+    border: 1px solid rgba(241, 241, 241, 1)
+
+}
+label{
+    width: 100px;
+    color: rgba(51, 51, 51, 0.68);
+    font-weight: 400;
+    margin-right: 440px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.forgetPw {
+    margin-left: 470px;
+    width: 150px;
+    color: rgba(51, 51, 51, 0.68);
+}
+
+.bintang{
+    color: rgba(255, 92, 43, 1);
+}
+
+.btn{
+    width: 540px;
+    height: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btnLogin{
+    background-color: rgba(62, 207, 76, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 22.4px;
+}
+
+.btnRegister{
+    background-color: rgba(226, 252, 217, 0.8);
+    color: rgba(62, 207, 76, 1);
+    font-weight: 700;
+    line-height: 22.4px;
+}
+
+.btnGoogle{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(74, 80, 92, 1);
+    font-weight: 700;
+    line-height: 22.4px;
+    width: 540px;
+    height: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(241, 241, 241, 1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+p{
+    margin: 10px;
+    color: rgba(74, 80, 92, 1);
+    font-weight: 700;
+}
+
+@media (max-width: 360px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .containerLogin {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        height: 790px;
+    }
+
+    .LoginForm {
+        width: 320px;
+        height: 514px;
+        padding: 10px;
+        border: 1px solid rgba(241, 241, 241, 1);
+        border-radius: 6px;
+        gap: 20px;
+    }
+
+    .content {
+        width: 280px;
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    fieldset {
+        width: 280px;
+        height: auto;
+        gap: 16px;
+    }
+
+    label {
+        width: 50%;
+        margin-right: 0;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    .inputLogin {
+        width: 280px;
+        height: 40px;
+        font-size: 14px;
+        margin-right: 290px;
+    }
+
+    .forgetPw {
+        margin-left: 150px;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 300px;
+        height: 34px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .btnGoogle {
+        width: 300px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
