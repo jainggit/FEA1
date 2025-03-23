@@ -5,7 +5,7 @@ import RegisterPage from "./pages/Register"
 import Header from "./Components/Header";
 
 
-const Router = () => {
+const App = () => {
     
     return (
     <BrowserRouter>
@@ -20,4 +20,4 @@ const Router = () => {
     )
 }
 
-export default Router
+export default App

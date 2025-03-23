@@ -1,0 +1,19 @@
+
+
+.containerNav{
+    background-color:rgba(255, 255, 255, 1);
+    width: 200px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.containerNav button {
+    border: 1px solid rgba(58, 53, 65, 0.12);
+    width: inherit;
+    padding: 16px 12px 16px 12px;
+    background-color:rgba(255, 255, 255, 1);
+    cursor: pointer;
+    color: rgba(51, 51, 51, 0.68);
+}
